@@ -3,7 +3,7 @@
 这是一个自动更新工具，用于自动检查并更新 go-stock 应用程序。
 
 ## 功能
-
+- 无需加速科学
 - 自动检查 GitHub 上的最新版本
 - 下载最新的安装程序
 - 终止当前运行的 go-stock 进程
@@ -42,21 +42,33 @@ python auto_update.py
 更新过程的详细日志将保存在 `update_log.txt` 文件中，可用于排查问题。
 
 
-[信息] 开始运行自动更新脚本...
-2025-07-10 18:31:14,916 - INFO - === 开始自动更新过程 ===
-2025-07-10 18:31:14,916 - INFO - 检查网络连接...
-2025-07-10 18:31:15,384 - INFO - 网络连接正常
-2025-07-10 18:31:15,385 - INFO - 正在检查最新版本...
-2025-07-10 18:31:15,385 - INFO - 正在检查最新版本: https://github.com/ArvinLovegood/go-stock/releases
-2025-07-10 18:31:17,252 - INFO - 已保存GitHub页面内容到github_page.html用于调试
-2025-07-10 18:31:17,402 - INFO - 未找到release-header，尝试其他选择器
-2025-07-10 18:31:17,426 - INFO - 未找到.release，尝试查找任何版本标签
-2025-07-10 18:31:17,443 - INFO - 找到最新版本: v2025.7.9.6-dev
-2025-07-10 18:31:17,444 - INFO - 准备下载版本 v2025.7.9.6-dev
-2025-07-10 18:31:17,444 - INFO - 开始下载安装程序...
-2025-07-10 18:31:17,445 - INFO - 拼接下载链接: https://gh-proxy.com/https://github.com/ArvinLovegood/go-stock/releases/download/v2025.7.9.6-dev/go-stock-amd64-installer.exe
-2025-07-10 18:31:17,446 - INFO - 开始下载安装程序到: D:\go-stockautoup\go-stock-amd64-installer.exe
-下载进度: 15% (2301952/14494042 字节)
+2025-07-23 10:15:29,945 - INFO - === 开始自动更新过程 ===
+2025-07-23 10:15:29,946 - INFO - 检查网络连接...
+2025-07-23 10:15:30,430 - INFO - 网络连接正常
+2025-07-23 10:15:30,431 - INFO - 正在检查最新版本...
+2025-07-23 10:15:30,431 - INFO - 正在检查最新版本: https://bgithub.xyz/ArvinLovegood/go-stock/releases
+2025-07-23 10:15:31,775 - INFO - 已保存GitHub页面内容到github_page.html用于调试
+2025-07-23 10:15:31,983 - INFO - 未找到release-header，尝试其他选择器
+2025-07-23 10:15:32,019 - INFO - 未找到.release，尝试查找任何版本标签
+2025-07-23 10:15:32,044 - INFO - 找到最新版本: v2025.7.22.2-dev
+2025-07-23 10:15:32,045 - INFO - 准备下载版本 v2025.7.22.2-dev
+2025-07-23 10:15:32,045 - INFO - 开始下载安装程序...
+2025-07-23 10:15:32,045 - INFO - 拼接下载链接: https://gh-proxy.com/https://github.com/ArvinLovegood/go-stock/releases/download/v2025.7.22.2-dev/go-stock-amd64-installer.exe
+2025-07-23 10:15:32,046 - INFO - 开始下载安装程序到: E:\发布GITHUB\已经发布\go-stock_autoup\go-stock-amd64-installer.exe
+2025-07-23 10:15:37,142 - INFO - 
+下载完成: E:\发布GITHUB\已经发布\go-stock_autoup\go-stock-amd64-installer.exe
+2025-07-23 10:15:37,144 - INFO - 安装程序下载成功: E:\发布GITHUB\已经发布\go-stock_autoup\go-stock-amd64-installer.exe
+2025-07-23 10:15:37,144 - INFO - 正在终止当前运行的进程...
+2025-07-23 10:15:37,144 - INFO - 尝试终止进程: go-stock.exe
+2025-07-23 10:15:37,600 - INFO - 进程未运行: go-stock.exe
+2025-07-23 10:15:37,601 - INFO - 等待进程完全终止...
+2025-07-23 10:15:39,603 - INFO - 正在运行安装程序...
+2025-07-23 10:15:39,603 - INFO - 开始运行安装程序: E:\发布GITHUB\已经发布\go-stock_autoup\go-stock-amd64-installer.exe
+2025-07-23 10:15:39,604 - INFO - 尝试方法1: 使用subprocess.Popen直接运行
+2025-07-23 10:15:39,615 - INFO - 安装程序已启动 (方法1)
+2025-07-23 10:15:39,617 - INFO - 安装程序已启动
+2025-07-23 10:15:39,617 - INFO - === 自动更新过程完成 ===
+
 
 ## 注意事项
 

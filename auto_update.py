@@ -31,7 +31,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 配置
-GITHUB_RELEASES_URL = "https://github.com/ArvinLovegood/go-stock/releases"
+# GITHUB_RELEASES_URL = "https://github.com/ArvinLovegood/go-stock/releases"
+# 加速，不用走科学
+GITHUB_RELEASES_URL = "https://bgithub.xyz/ArvinLovegood/go-stock/releases"
 INSTALLER_PATTERN = r"go-stock-amd64-installer\.exe"
 PROCESS_NAME = "go-stock.exe"
 DOWNLOAD_DIR = os.path.dirname(os.path.abspath(__file__))
